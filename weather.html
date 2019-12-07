@@ -42,7 +42,7 @@
     	if(!location){
     		location="Ann Arbor"
     	}
-		let query = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&APPID=95b7095b86d47b5e13c2cdb65a8bd64e";
+		let query = "http://api.openweathermap.org/data/2.5/weather?q="+location+"&APPID=95b7095b86d47b5e13c2cdb65a8bd64e";
         console.log("Query is :" + query);
 
         $.getJSON(query,function(json){
